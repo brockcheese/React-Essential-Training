@@ -14,6 +14,7 @@ export default function HotelBlock({ id, name, capacity }) {
                 width={300} 
                 height={300} 
                 loader={imageLoader}
+                alt={name}
             />
         </div>
     )
