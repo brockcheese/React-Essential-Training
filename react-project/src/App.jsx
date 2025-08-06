@@ -36,7 +36,7 @@ function Main({ dishes, openStatus, onStatus }) {
       </div>
       <main>
         <img 
-          src={chef} 
+          src="https://github.com/brockcheese.png" 
           height={200} 
           alt="A photo of a smiling chef owner"
         />
@@ -76,7 +76,7 @@ function App() {
       <button onClick={toggle}>
         {status ? "Close" : "Open"} Restaurant
       </button>
-      <Header name="Alex" year={new Date().getFullYear()} />
+      <Header name="Brock" year={new Date().getFullYear()} />
       <Main 
         dishes={dishObjects} 
         openStatus={status} 
